@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.platform{
+    width: 750px;
+    height: 750px;
+    background-color: darkred;
+    display: grid;
+    grid: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px /  70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 10px;
+
+}
+
+.boxes{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+}
+.player{
+    width: 12px;
+    height: 22px;
+    background-color: blue;
+    border-radius: 20px 20px 0px 0px ;
+    position: relative;
+    /* left: 75px;
+    bottom: 75px; */
+}
