@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+
+.plat{
+    width: 550px;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.result{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    color: white;
+    flex-direction: column;
+
+}
+
+.result input{
+    width: 500px;
+    height: 80px;
+    font-size: 3rem;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    color: grey;
+}
+
+.result input::placeholder{
+    color: grey;
+}
+.result input:focus{
+    text-align: right;
+    outline: none;
+}
+
+.actualresult
+{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calc{
+    width: 550px;
+    height: 600px;
+    display: flex;
+    /* background-color: teal; */
+    background-color: rgb(105, 5, 192);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.num{
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+
+
+.calbtn{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 10px;
+}
+
+.calbtn button{
+    background-color: rgba(0, 0, 0, 0.566);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.acbtn{
+    width: 120px;
+
+}
+.resbtn{
+    width:467px;
+}
+
+.num:hover{
+    background-color: rgb(134, 11, 242);
+}
+
+.sign{
+    width: 120px;
+    background-color: rgb(89, 5, 163);
+}
+
+.acbtn,.resbtn{
+    transition: all 0.4s linear;
+    font-size: 1.5rem;
+}
+
+.acbtn:hover , .resbtn:hover {
+    background-color: rgba(26, 26, 26, 0.566);
+
+}
+
