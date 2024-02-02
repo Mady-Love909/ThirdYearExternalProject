@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +24,7 @@
     border-radius: 10px;
     padding: 10px;
     gap: 10px;
+    box-shadow: 0px 0px 20px white;
 }
 
 .result{
@@ -69,6 +71,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .num{
     color: white;
@@ -80,6 +83,7 @@
     font-size: 1.7rem;
     transition: all 0.4s ease-out;
     cursor: pointer;
+    
 }
 
 
@@ -112,7 +116,9 @@
 }
 
 .sign{
-    width: 120px;
+    width: 100px;
+    font-size: 2rem;
+
     background-color: rgb(89, 5, 163);
 }
 
@@ -126,3 +132,11 @@
 
 }
 
+.back{
+    font-size: 1rem;
+}
+
+.back:hover{
+    
+    background-color: darkred;
+}
